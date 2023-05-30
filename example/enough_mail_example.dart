@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:enough_mail/enough_mail.dart';
 
-String userName = 'contato@grupoexcelencia.srv.br';
-String password = '#Excelencia10';
-String domain = 'grupoexcelencia.srv.br';
+String userName = 'user.name';
+String password = 'password';
+String domain = 'domain.com';
 String imapServerHost = 'imap.$domain';
 int imapServerPort = 993;
 bool isImapServerSecure = true;
