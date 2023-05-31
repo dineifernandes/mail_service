@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:enough_mail/enough_mail.dart';
 
-String userName = 'user.name';
-String password = 'password';
-String domain = 'domain.com';
+String userName = 'contato@grupoexcelencia.srv.br';
+String password = '#Excelencia10';
+String domain = 'grupoexcelencia.srv.br';
 String imapServerHost = 'imap.$domain';
 int imapServerPort = 993;
 bool isImapServerSecure = true;
@@ -27,7 +27,7 @@ void main() async {
 
 /// Auto discover settings from email address example
 Future<void> discoverExample() async {
-  const email = 'someone@enough.de';
+  const email = 'teste@hgsservices.com.br';
   final config = await Discover.discover(email, isLogEnabled: false);
   if (config == null) {
     print('Unable to discover settings for $email');
